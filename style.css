@@ -1,0 +1,270 @@
+/*RESET DOS EFEITOS NO GLOBAL*/
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Lato', sans-serif;
+}
+
+
+.container-top {
+ background-color: #604829;
+ color: #c4a47c;
+ width: 100%;
+ position: fixed;
+ top: 0;
+ z-index: 1;  
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 15%;
+}
+
+.container-top img {
+    height: 45px;
+}
+
+.container-top nav { 
+    display: flex;
+    gap: 30px;
+}
+
+.container-top a {
+    font-family: 'Oswald', sans-serif ;
+    font-size: 18px;
+    text-decoration: none;
+    color:#c4a47c; 
+    letter-spacing: 2px;    
+    transition: color 0.3s;
+}
+
+.container-top a:hover {
+    color: #fff;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url("./assets/parallax-imagem1.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1 { 
+    font-family: 'Fraunces', serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 0 2px #000000;
+}
+
+.informacao { 
+    background-color: #fff;
+    text-align: center;
+    padding: 80px 20%;
+}
+
+.informacao h2 { 
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #c4a47c;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.informacao p {
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.banner-2 { 
+    height: 50vh;
+    background-image: url('./assets/parallax-imagem2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-3 { 
+    height: 50vh;
+    background-image: url('./assets/parallax-imagem3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.subtitulo { 
+    width: 75vh;
+    background-color: #604829;
+    text-align: center;
+    padding: 10px 60px;
+    box-shadow: 2px 2px 2px 0 #000000;
+}
+
+.subtitulo h3 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+    text-shadow: 1px 1px 0 0 #000000;
+}
+
+.contatos {
+    height: 100vh;
+    background-image: url('./assets/parallax-imagem4.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px 0;
+}
+
+.contatos h2 {
+    font-family: 'Oswald', serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+    background-color: #604829;
+    padding: 5px 60px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.info-contato {
+    background-color: #604829;
+    padding: 5px 60px;
+    border-radius: 5px;
+}
+
+
+.info-contato p { 
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 15px 0;
+    line-height: 1.8;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px 2px #000000;
+}
+.horarios {
+    height: 100vh;
+    background-image: url('./assets/cafeteria.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.horarios h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    padding: 20px 40px;
+}
+
+.lista { 
+    list-style: none;
+    padding: 40px 80px;
+    border-radius: 5px;
+}
+
+/*LINHA*/
+.lista li {  
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid #666;
+    min-width: 400px;
+}
+
+.lista h3 {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.lista span { 
+    color: #c4a47c;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: right;
+    font-weight: 800;
+}
+
+.lista p { 
+    color: #acacac;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: right;
+}
+
+.rodape { 
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.rodape p { 
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.rodape span {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+    color: #c4a47c;
+}
+
+.btn-topo { 
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-topo img { 
+    width: 40px;
+    height: 40px;
+    transition: opacity 0.3s;
+}
+
+.btn-topo:hover img {
+    opacity: 0.7;
+}
