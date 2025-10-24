@@ -273,3 +273,222 @@ body {
 .btn-topo:hover img {
     opacity: 0.7;
 }
+
+
+
+/* RESPONSIVIDADE PARA MOBILE */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .container-top {
+        padding: 15px 5%;
+    }
+
+    .informacao {
+        padding: 60px 10%;
+    }
+
+    .titulo h1 {
+        font-size: 48px;
+        letter-spacing: 6px;
+    }
+
+    .lista {
+        padding: 30px 40px;
+    }
+
+    .lista li {
+        min-width: 500px;
+    }
+}
+
+/* Smartphones */
+@media (max-width: 768px) {
+    .container-top {
+        padding: 12px 5%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .container-top img {
+        height: 35px;
+    }
+
+    .container-top nav {
+        gap: 15px;
+    }
+
+    .container-top a {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .banner,
+    .banner-2,
+    .banner-3,
+    .contatos,
+    .horarios {
+        background-attachment: scroll;
+    }
+
+    .titulo h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+        padding: 0 20px;
+    }
+
+    .informacao {
+        padding: 50px 8%;
+    }
+
+    .informacao h2 {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    .informacao p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .banner-2,
+    .banner-3 {
+        height: 60vh;
+    }
+
+    .subtitulo {
+        padding: 20px 30px;
+        max-width: 90%;
+    }
+
+    .subtitulo h3 {
+        font-size: 18px;
+    }
+
+    .contatos h2 {
+        font-size: 24px;
+        padding: 15px 30px;
+        letter-spacing: 3px;
+    }
+
+    .contatos iframe {
+        width: 90% !important;
+        height: 250px !important;
+    }
+
+    .info-contato {
+        padding: 25px 30px;
+        max-width: 90%;
+    }
+
+    .info-contato p {
+        font-size: 14px;
+    }
+
+    .horarios h2 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        padding: 15px 25px;
+    }
+
+    .lista {
+        padding: 25px 20px;
+    }
+
+    .lista li {
+        min-width: auto;
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 15px 0;
+    }
+
+    .lista h3,
+    .lista span,
+    .lista p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .rodape {
+        padding: 30px 15px;
+    }
+
+    .rodape p {
+        font-size: 12px;
+    }
+
+    .btn-topo {
+        right: 20px;
+        top: auto;
+        bottom: 20px;
+        transform: none;
+    }
+
+    .btn-topo img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Smartphones pequenos */
+@media (max-width: 480px) {
+    .container-top {
+        padding: 10px 3%;
+    }
+
+    .container-top nav {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-top a {
+        font-size: 12px;
+    }
+
+    .titulo h1 {
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+
+    .informacao {
+        padding: 40px 5%;
+    }
+
+    .subtitulo {
+        padding: 15px 20px;
+    }
+
+    .subtitulo h3 {
+        font-size: 16px;
+    }
+
+    .contatos h2 {
+        font-size: 20px;
+        padding: 12px 20px;
+    }
+
+    .info-contato {
+        padding: 20px 25px;
+    }
+
+    .info-contato p {
+        font-size: 13px;
+    }
+
+    .horarios h2 {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+    .lista {
+        padding: 20px 10px;
+    }
+
+    .lista h3,
+    .lista span,
+    .lista p {
+        font-size: 13px;
+    }
+}
